@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="simp">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="simp\simp">
+      <UniqueIdentifier>{865685cb-620d-43ca-b75c-abc1513d43a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simp\resources">
+      <UniqueIdentifier>{bf029228-a059-4dd4-a445-7774d900cae2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>simp</Filter>
+    </ClCompile>
+    <ClCompile Include="simp\simp.cpp">
+      <Filter>simp\simp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resources\ascii_art.h">
+      <Filter>simp\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="simp\simp.h">
+      <Filter>simp\simp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+﻿  main.cpp
+  simp.cpp
+C:\Users\root\Desktop\simp\simp\simp\simp.cpp(30,40): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 193 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  simp.vcxproj -> C:\Users\root\Desktop\simp\x64\Release\simp.exe
